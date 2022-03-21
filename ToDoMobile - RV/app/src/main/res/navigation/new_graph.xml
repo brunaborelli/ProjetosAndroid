@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/new_graph"
+    app:startDestination="@id/cardLayout">
+
+    <fragment
+        android:id="@+id/cardLayout"
+        android:name="com.generation.todomobile.cardLayout"
+        android:label="card_layout"
+        tools:layout="@layout/card_layout" />
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.generation.todomobile.listFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
+</navigation>
